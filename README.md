@@ -55,15 +55,24 @@ To run the app locally, follow these steps:
    git clone https://github.com/AnkitGupta/automated-ml-web-app.git
 
 2. Navigate to the project folder:
+   ```bash
+   cd automated-ml-web-app
+
 3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
 4. Run the Streamlit app:
+   ```bash
+   streamlit run main.py
 
 ## Requirements
 - Python 3.8+
 - Streamlit
 - Pandas, NumPy
 - Scikit-learn
-- Matplotlib, Seaborn
+- Scipy
+- Matplotlib, Seaborn, Plotly
 - Other dependencies are listed in requirements.txt
 
 ## Future Plans
