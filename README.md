@@ -78,6 +78,10 @@ To run the app locally, follow these steps:
    ```bash
    streamlit run main.py
 
+5. You might come across a Power Shell access issue while running the webapp the first time. Here is a detailed solution for it -
+![image](https://github.com/user-attachments/assets/e645114e-c4d1-4441-b1c7-29901cc403e5)
+![image](https://github.com/user-attachments/assets/dd80eb73-72ee-4c47-bb78-4051538718ff)
+
 ## Requirements
 - Python 3.8+
 - Streamlit
