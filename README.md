@@ -54,11 +54,23 @@ To run the app locally, follow these steps:
    ```bash
    git clone https://github.com/AnkitGupta/automated-ml-web-app.git
 
-2. Navigate to the project folder:
-   ```bash
-   cd automated-ml-web-app
+2. Setup the virtual environment on your system by following these instructions:
+- First, install Python: Ensure that Python is installed on your system.
+- Second, install Pip: Pip is usually included with Python installations.
+- Third, open command prompt - Press Win + R, type cmd, and hit Enter to open the Command Prompt.
+- Fourth, install Virtualenv using this code:
+  ```bash
+  pip install virtualenv
 
-3. Install the required dependencies:
+- Next, activate the Virtual environment using this code:
+  ```bash
+  (path_name)env\Scripts\activate
+
+3. Navigate to the project folder:
+   ```bash
+   cd (path_name)\ml-web-app
+
+4. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
 
